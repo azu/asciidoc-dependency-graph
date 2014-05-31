@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/azu/asciidoc-dependency-graph.git"
   },
-  "main": "index.js",
+  "main": "lib/asciidoc-dependency.js",
   "scripts": {
     "test": "mocha test/*.js"
   },
