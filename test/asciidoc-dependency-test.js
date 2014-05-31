@@ -109,12 +109,14 @@ describe("AsciidocDependency", function () {
                 assert(Array.isArray(yObject.ids));
                 assert(Array.isArray(yObject.referenceIds));
             });
-            it("has [[y-doc]] and [[embed-y-code]]", function () {
+            it("ids are [[y-doc]] and [[embed-y-code]]", function () {
                 assert(_.contains(yObject.ids, "y-doc"));
                 assert(_.contains(yObject.ids, "embed-y-code"));
             });
-            it("reference [[x-doc]]", function () {
+            it("reference ids are [[x-doc]]", function () {
                 assert(_.contains(yObject.referenceIds, "x-doc"));
+                assert(_.contains(yObject.referenceIds, "test.js"));
+
             });
         });
     });
