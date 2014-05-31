@@ -1,0 +1,11 @@
+[[y-doc]]
+= y-file
+
+<<x-doc ,X File>>
+
+[[embed-y-code]]
+[source,js]
+----
+var y = "code";
+----
+

@@ -1,0 +1,35 @@
+{
+  "name": "asciidoc-dependency-graph",
+  "description": "Create asciidoc dependency graph to JSON.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/asciidoc-dependency-graph/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/asciidoc-dependency-graph.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/asciidoc-dependency-graph/issues"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "minimatch": "^0.3.0",
+    "q": "^1.0.1",
+    "q-io": "^1.11.1"
+  },
+  "devDependencies": {
+    "espower-loader": "^0.7.1",
+    "intelli-espower-loader": "^0.1.0",
+    "mocha": "^1.20.0",
+    "power-assert": "^0.7.2",
+    "promise-test-helper": "0.0.4"
+  }
+}

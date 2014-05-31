@@ -1,0 +1,4 @@
+[[x-doc]]
+= Xfile
+
+x x x
