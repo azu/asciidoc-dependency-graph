@@ -2,6 +2,8 @@
 
 Generate dependency-graph JSON tree from [AsciiDoc](http://www.methods.co.nz/asciidoc/ "AsciiDoc").
 
+This library collect `id` and `referenceId` of each asciidoc file.
+
 ## Installation
 
 ``` sh
