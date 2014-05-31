@@ -9,4 +9,4 @@
 var y = "code";
 ----
 
-This is <<test.js>>.
+This is <<test.js>> and <<test.js>>.
