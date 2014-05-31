@@ -10,6 +10,19 @@ npm install asciidoc-dependency-graph
 
 ## Usage
 
+`new AsciidocDependency(options)`
+
+### options
+
+`cwd` : current working directory
+
+e.g) `"cwd" : process.cwd(),`
+
+`pattern` : glob pattern using minimatch module 
+
+e.g) `"cwd" : "doc/**/*.adoc"`
+
+
 ``` js
 var adocDependency = new AsciidocDependency({
     "cwd": __dirname,
