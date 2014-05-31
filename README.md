@@ -1,4 +1,4 @@
-# asciidoc-dependency-graph
+# asciidoc-dependency-graph [![Build Status](https://travis-ci.org/azu/asciidoc-dependency-graph.svg)](https://travis-ci.org/azu/asciidoc-dependency-graph)
 
 Generate dependency-graph JSON tree from [AsciiDoc](http://www.methods.co.nz/asciidoc/ "AsciiDoc").
 
